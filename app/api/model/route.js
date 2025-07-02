@@ -14,7 +14,6 @@ export async function POST(request) {
       apiKey: key,
     });
 
-    // ✅ General AI Assistant prompt
     const prompt = ChatPromptTemplate.fromMessages([
   [
     "system",

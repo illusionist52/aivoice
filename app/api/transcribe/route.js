@@ -23,9 +23,6 @@ export async function POST(request) {
       model: 'whisper-large-v3-turbo',
     });
 
-    // Clean up temp file
-    // fs.unlinkSync(tempFilePath);
-
     console.log('Transcription:', transcription);
     return NextResponse.json({ transcription });
 

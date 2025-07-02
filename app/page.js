@@ -1,4 +1,3 @@
-// This file is a React component that implements a chat interface with voice input and audio message playback
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import {
@@ -236,7 +235,6 @@ export default function ChatInterface() {
                           : "bg-yellow-200 text-gray-800 mr-12"
                       }`}
                     >
-                      {/* Audio Playback */}
                       {message.audioUrl && (
                         <audio
                           controls
@@ -245,7 +243,6 @@ export default function ChatInterface() {
                         />
                       )}
 
-                      {/* Toggle Transcript */}
                       {message.text && (
                         <>
                           <button
