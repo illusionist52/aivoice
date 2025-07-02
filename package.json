@@ -1,0 +1,30 @@
+{
+  "name": "aivoice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.4.1",
+    "@langchain/core": "^0.3.61",
+    "@langchain/groq": "^0.2.3",
+    "dotenv": "^17.0.1",
+    "groq-sdk": "^0.26.0",
+    "langchain": "^0.3.29",
+    "lucide-react": "^0.525.0",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "next": "15.3.4",
+    "playht": "^0.21.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-speech": "^1.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
